@@ -1,12 +1,116 @@
-body {
-    background-color: #D47677;
+h1 {
+  position:absolute;
+  top:25px;
+  left:25px;
+  font-size: 85%;
+}
+
+h3 {
+  font-size: 175%;
+  border: 0px;
+  padding: 0px;
+  margin-top:175px;
+  display:inline-block;
+
+}
+.maintext p {
+  border-left-style: solid;
+  border-left-color: #69696a;
+  text-align: left;
+  width: 500px;
+  padding-top: 3px;
+  padding-right:23px;
+  padding-left:23px;
+  padding-bottom:3px;
+  margin-left: 25px;
+  display:inline-block;
   }
 
-div {
-  background-color: #F0F0F0;
-  text-align: center;
-  width: 400px;
-  border: 25px;
-  padding: 50px;
-  margin: auto;
+
+
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    margin:15px;
   }
+
+ul {
+      list-style-type: none;
+      margin: 10px;
+      padding: 10px;
+      float: right;
+  }
+
+li {
+  display: inline-block;
+
+}
+
+
+a {
+      padding: 15px;
+      text-decoration: none;
+      color: #000;
+  }
+
+
+li:last-child a {
+    position: relative;
+    background-color:#000;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:30px;
+    padding-right:30px;
+    color: #f9fafc;
+    border-radius:45px;
+}
+
+#circle1 /*purple*/ {
+  position:fixed;
+  top:275px;
+  left:950px;
+  width:185px;
+  height:185px;
+  background:rgba(207, 130, 213, 0.6);
+  z-index: 1;
+}
+
+#circle2 /*pink*/ {
+  position:fixed;
+  top:225px;
+  left:700px;
+  width:325px;
+  height:325px;
+  background:rgba(247, 136, 167, 0.6);
+  z-index: 2;
+}
+#circle3 /*orange*/ {
+  position:fixed;
+  top:375px;
+  left:850px;
+  width:250px;
+  height:250px;
+  background:rgba(247, 193, 162, 0.7);
+  z-index: 3;
+}
+
+.circle{
+  border-radius:50%;
+  display: inline-block;
+}
+.button {
+    background-color: #000;
+    color: #f9fafc;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:25px;
+    padding-right:25px;
+    border:none;
+    border-radius:45px;
+    margin-right: auto;
+    margin-left: auto;
+}
